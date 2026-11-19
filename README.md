@@ -11,6 +11,8 @@ it. This plugin fills that gap everywhere fprintd is used:
 - an optional bar widget that flashes a fingerprint glyph for 3 seconds, in the
   bar's urgent colour when the finger is rejected.
 
+![Bar widget flashing the fingerprint glyph, OSD showing "Fingerprint OK"](docs/screenshot.png)
+
 ## How it works
 
 fprintd broadcasts a `VerifyStatus` signal on the system D-Bus after each scan.
