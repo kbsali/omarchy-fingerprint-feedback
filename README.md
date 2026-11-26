@@ -53,6 +53,8 @@ every Omarchy install has, and fprintd's signals are readable by any user.
 
 ## Install
 
+Listed in the [Omarchy plugin directory](https://plugins.omarchy.org/plugin.html?id=kbsali.fingerprint-feedback).
+
 ```bash
 omarchy plugin add https://github.com/kbsali/omarchy-fingerprint-feedback --enable
 ```

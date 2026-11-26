@@ -6,4 +6,5 @@
 
 ## Done
 
+- [x] 2026-11-26 Accepted and published on the Omarchy plugin directory
 - [x] 2026-11-26 Show "Reading fingerprint…" on touch, and failed scans (v0.2.0)
