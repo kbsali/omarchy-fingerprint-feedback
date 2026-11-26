@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "kbsali.fingerprint-feedback",
   "name": "Fingerprint feedback",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "kbsali",
   "license": "MIT",
-  "description": "Shows when a fingerprint is accepted or rejected, for sudo in a terminal as well as polkit and the lock screen.",
+  "description": "Shows when a fingerprint is being read, then whether it is accepted or rejected, for sudo in a terminal as well as polkit and the lock screen.",
   "kinds": ["service", "bar-widget"],
   "keepLoaded": true,
   "entryPoints": {
@@ -14,7 +14,7 @@
   },
   "barWidget": {
     "displayName": "Fingerprint feedback",
-    "description": "Flashes a fingerprint glyph for a few seconds after each scan",
+    "description": "Shows a fingerprint glyph from the touch until a few seconds after the result",
     "category": "System",
     "allowMultiple": false,
     "defaultSection": "right"
